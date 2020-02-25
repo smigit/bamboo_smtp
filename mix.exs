@@ -27,12 +27,12 @@ defmodule BambooSmtp.Mixfile do
 
   defp deps do
     [
-      {:bamboo, "~> 1.2"},
+      {:bamboo, "~> 1.3"},
       {:credo, "~> 1.1.4", only: [:dev, :test]},
       {:earmark, ">= 1.3.2", only: :docs},
       {:excoveralls, "~> 0.12.0", only: :test},
       {:ex_doc, ex_doc_version(), only: :docs},
-      {:gen_smtp, "~> 0.12.0"},
+      {:gen_smtp, "~> 0.15.0"},
       {:inch_ex, "~> 2.0.0", only: :docs}
     ]
   end
